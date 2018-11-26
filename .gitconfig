@@ -1,0 +1,14 @@
+[user]
+  name = Samuel Becker
+  email = hello@samuelbecker.me
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+  st = status
+  ci = commit
+  nb = checkout -b
+  co = checkout
+  df = diff
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+​[push]
+  default = upstream
